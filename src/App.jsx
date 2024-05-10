@@ -19,8 +19,6 @@ const handleChange=(e)=>{
  if(guessedNumber==random){
   setResult('Correct...You Won');
   setWon(true)
- }else{
-  
  }
  if(guessedNumber>random){
   setResult('Large Number');
